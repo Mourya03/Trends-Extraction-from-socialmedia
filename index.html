@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Proza+Libre&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Extracting Trends</title>
+    <script src="script.js">
+
+    </script>
+</head>
+
+<body class="h-100">
+    <!--header-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning bg-opacity-75" style="font-family: 'eczar';" id="p">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family:Roboto;font-size: 40px;" id="mainTitle">
+                FlipKart Trends
+            </a>
+        </div>
+        <div>
+            <b>Category :</b> Fashion
+        </div>
+    </nav>
+    <!--end of header-->
+    <!--search-->
+    <div class="row px-4 pt-4" id="searchDiv">
+        <div class="col-sm-12">
+            <input type="text" id="myFilter11" class="form-control" onkeyup="myFunction(11)"
+                placeholder="Search for any item">
+        </div>
+    </div>
+    <!--end of search-->
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3" id="myItems">
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women Western
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/xif0q/dress/r/i/z/s-aa-0119-boho-long-dress-aayu-original-imag3ghzyktnj3bz-bb.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Women Dresses <br>
+                        <b>Trending Atrribute Type</b> : Women Fashion<br>
+                        <b>Trending Atrribute value</b> : Summer Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/aayu-women-fit-flare-multicolor-dress/p/itmfbz6zajmnsthr?pid=DREFBYMFG4AGWRHE&lid=LSTDREFBYMFG4AGWRHEHXJBKS&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fjhy&srno=b_1_1&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern~Women%2BDresses_4XBLC9R100Y6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&fm=organic&iid=2768e878-3615-4b75-afa3-8f530c730abe.DREFBYMFG4AGWRHE.SEARCH&ppt=browse&ppn=browse&ssid=pb5yeyhbjk0000001659110360361"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women Ethnic
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/krkyt8w0/sari/y/p/v/free-wedding-saree-ecolors-fab-unstitched-original-imag5c8efuhrjz9t.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Women Sarees <br>
+                        <b>Trending Atrribute Type</b> : Women Fashion<br>
+                        <b>Trending Atrribute value</b> : Indian Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/cartyshop-embellished-fashion-georgette-pure-silk-saree/p/itmbd04f661f04e3?pid=SARG5SYYPKRCZFCV&lid=LSTSARG5SYYPKRCZFCVR2MPUI&marketplace=FLIPKART&store=clo%2F8on%2Fzpd%2F9og&srno=b_1_2&otracker=browse&fm=organic&iid=c0c3f7bf-4225-417d-a13d-f443ed42e990.SARG5SYYPKRCZFCV.SEARCH&ppt=browse&ppn=browse&ssid=6wqvtze80w0000001659110388983"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men's Top Wear
+                    </h5>
+                    <img width="80%"
+                        src="https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/k/f/d/s-gg370-gespo-original-imag3y46auhkghhh-bb.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Men Dresses <br>
+                        <b>Trending Atrribute Type</b> : Men Fashion<br>
+                        <b>Trending Atrribute value</b> : Young Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/gespo-men-solid-casual-white-shirt/p/itmfa8buyfqkmxth?pid=SHTFA8AJJ5KWE3FA&lid=LSTSHTFA8AJJ5KWE3FACVMSUK&marketplace=FLIPKART&store=clo%2Fash%2Faxc%2Fmmk%2Fkp7&srno=b_1_11&otracker=browse&fm=organic&iid=25c998e5-8ad5-4191-b6db-796f02dcc156.SHTFA8AJJ5KWE3FA.SEARCH&ppt=browse&ppn=browse&ssid=0wfrpd7qpc0000001659110465800"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men's Bottom Wear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/kpedle80/trouser/p/x/r/32-13859264-roadster-original-imag3mzfjzz4gwcz.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Men Dresses <br>
+                        <b>Trending Atrribute Type</b> : Men Fashion<br>
+                        <b>Trending Atrribute value</b> : Teen Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/roadster-regular-fit-men-white-trousers/p/itm78bb9800b380d?pid=TROG3MZFGRGMWJDB&lid=LSTTROG3MZFGRGMWJDBNXGDS6&marketplace=FLIPKART&store=clo%2Fvua%2Fmle%2Flhk&srno=b_1_2&otracker=nmenu_sub_Men_0_Casual%20Trousers&fm=organic&iid=a23de0d7-af46-4d4b-8bf2-28b6bb2a3f04.TROG3MZFGRGMWJDB.SEARCH&ppt=browse&ppn=browse&ssid=gdoiozlt0g0000001659110682642"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men Footwear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/ktizdzk0/shoe/y/b/x/7-ws-9310-tying-grey-original-imag6ut3hzm2zyqm.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Men Footwear <br>
+                        <b>Trending Atrribute Type</b> : Sport Shoes<br>
+                        <b>Trending Atrribute value</b> : High Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/world-wear-footwear-exclusive-range-stylish-comfortable-sports-sneakers-running-shoes-men/p/itmb30666ea35211?pid=SHOFZ2QY5SF4KTHQ&lid=LSTSHOFZ2QY5SF4KTHQ0XUFV5&marketplace=FLIPKART&store=osp%2Fcil%2F1cu&srno=b_1_1&otracker=nmenu_sub_Men_0_Sports%20Shoes&fm=organic&iid=34fa137a-08f6-439a-b6f9-81a85d6dd1b2.SHOFZ2QY5SF4KTHQ.SEARCH&ppt=browse&ppn=browse&ssid=ryl8xdvps00000001659110756361"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women Ethnic
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/l02r1jk0/ethnic-set/o/x/4/4xl-bkgreen-baba-kurti-original-imagbxwtc3mh9xga.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Kurtas and Kurtis <br>
+                        <b>Trending Atrribute Type</b> : Women Kurtas<br>
+                        <b>Trending Atrribute value</b> : Girls Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/skyasia-women-printed-anarkali-kurta/p/itmd9c13206c7c3d?pid=KTAGAXBTFXTYEYXF&lid=LSTKTAGAXBTFXTYEYXFGSPEJC&marketplace=FLIPKART&q=kurtas+kurtis&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_1_1&otracker=search&fm=organic&iid=07ad3e9a-1bc2-4b6d-a4cb-6b12f4701139.KTAGAXBTFXTYEYXF.SEARCH&ppt=browse&ppn=browse&ssid=p4z0n34kow0000001659111058379&qH=5985e3313e9e348f"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women Footwear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/kazor680/sandal/c/s/g/ph1001-3-peplum-black-original-imafsf94g86wb9tj.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Women Footwear <br>
+                        <b>Trending Atrribute Type</b> : Women Wedges<br>
+                        <b>Trending Atrribute value</b> : Summer Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/miggler-women-black-heels/p/itmebd526a436f96?pid=SNDGYN8RVZNAJJNP&lid=LSTSNDGYN8RVZNAJJNPBS3OQZ&marketplace=FLIPKART&store=osp%2Fiko&srno=b_1_8&otracker=nmenu_sub_Women_0_Footwear&fm=organic&iid=3c7be42b-8ae5-4044-a39c-d4dd616b3de1.SNDGYN8RVZNAJJNP.SEARCH&ppt=browse&ppn=browse&ssid=743vpu3p0w0000001659110892322"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women Western
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/kxhvf680/dress/7/f/c/xs-a1204-sheetal-associates-original-imag9xt9czmjmzrz.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Women Dresses <br>
+                        <b>Trending Atrribute Type</b> : New York Fashion<br>
+                        <b>Trending Atrribute value</b> : Teen Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/sheetal-associates-women-wrap-pink-dress/p/itmde841fb7c1f91?pid=DREGACDFHNXP36XX&lid=LSTDREGACDFHNXP36XXEANDXF&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fjhy&srno=b_1_6&otracker=browse&fm=organic&iid=08ae3043-2812-4653-a119-9a2e17ff6790.DREGACDFHNXP36XX.SEARCH&ppt=browse&ppn=browse&ssid=jblsc2fc0g0000001659110970113"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men's Top Wear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/u/s/r/39-rmsz10606-b6-raymond-original-imag4yvkaqftghkz-bb.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Men Casuals <br>
+                        <b>Trending Atrribute Type</b> : Men Formals<br>
+                        <b>Trending Atrribute value</b> : Formals
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/raymond-men-self-design-formal-dark-blue-shirt/p/itm81db4189b338b?pid=SHTGFZY4JFKY73FQ&lid=LSTSHTGFZY4JFKY73FQQC6SYY&marketplace=FLIPKART&store=clo%2Fash%2Faxc%2Fmmk%2Fbk1&srno=b_1_15&otracker=browse&fm=organic&iid=26299452-55f2-4143-936d-6badb867d42e.SHTGFZY4JFKY73FQ.SEARCH&ppt=browse&ppn=browse&ssid=5km8tps88w0000001659111259649"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men's Bottom Wear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/kgwld3k0-0/jean/d/z/q/38-hljn001179-highlander-original-imafxfbdasqhbumf.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Jeans<br>
+                        <b>Trending Atrribute Type</b> : Men's Jeans<br>
+                        <b>Trending Atrribute value</b> : London Fashion Week
+                    </h5>
+                    <center>
+                        <a href="http://www.arianagrande.com" style="font-family: 'eczar', sans-serif;" class="btn my-2"
+                            id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Women FootWear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/e/q/m/4-mw-1102-women-white-4-mileswalker-white-original-imagyn5egchvbmrh-bb.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Women FootWear <br>
+                        <b>Trending Atrribute Type</b> : Women Sports<br>
+                        <b>Trending Atrribute value</b> : Street Fashion
+                    </h5>
+                    <center>
+                        <a href="http://www.arianagrande.com" style="font-family: 'eczar', sans-serif;" class="btn my-2"
+                            id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mt-3">
+            <div class="card shadow m-4">
+                <div class="card-body">
+                    <h5 class="h1 mb-3 px-2" style="font-family: roboto;text-align: center;" id="p">
+                        Men's FoorWear
+                    </h5>
+                    <img width="100%"
+                        src="https://rukminim1.flixcart.com/image/832/832/kyoqmq80/shoe/9/u/7/10-casual-sneaker-shoes-and-partywear-shoes-casuals-for-men-kwik-original-imagauyv8zvgvfha.jpeg?q=70"
+                        alt="">
+                    <h5 id="tags" class="py-2 px-1"
+                        style="font-family:'Segoe UI'; font-size: 15px; text-align: center;">
+                        <b>Vertical</b> : Men Footwear <br>
+                        <b>Trending Atrribute Type</b> : Men Sneaker<br>
+                        <b>Trending Atrribute value</b> : Teen Fashion
+                    </h5>
+                    <center>
+                        <a href="https://www.flipkart.com/kwik-fit-casual-sneaker-shoes-partywear-casuals-men-sneakers/p/itm0103df1c6c4cf?pid=SHOGAUYVGZ56H5MS&lid=LSTSHOGAUYVGZ56H5MSGLOT4E&marketplace=FLIPKART&store=osp%2Fcil%2Fe1f&srno=b_1_12&otracker=nmenu_sub_Men_0_Sneakers&fm=organic&iid=7bcdacef-ac04-4d2f-af21-8ca955dfd131.SHOGAUYVGZ56H5MS.SEARCH&ppt=browse&ppn=browse&ssid=m67kt9v90w0000001659111600854"
+                            style="font-family: 'eczar', sans-serif;" class="btn my-2" id="o">View Details</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer-->
+    <div class="px-4 py-5 text-center footer">
+        <h1 class="display-5 fw-bold">Flipkart GRiD 4.0</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">This is a prototype version of our solution for the problem statement - "Extract Trends
+                from Social Media data" developed by Team "KartKrakerz" - Mourya Cheggoju, Siddharth Pabbisetty, Yasa
+                Jeevan Reddy as part of the Flipkart GRiD 4.0 Software Development Challenge"</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" onclick="topFunction()" id="myBtn" title="Go to top"
+                    class="btn btn-danger btn-lg px-4 gap-3">Go Back to Top</button>
+                <button type="button" class=" btn btn-outline-secondary btn-lg px-4"><a id="vnrbtn"
+                        href="http://www.vnrvjiet.ac.in"> Visit VNR VJIET</a></button>
+            </div>
+        </div>
+    </div>
+    <!--end of footer-->
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!--end of bootstrap-->
+</body>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</html>
